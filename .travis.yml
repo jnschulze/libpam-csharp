@@ -1,0 +1,7 @@
+language: csharp
+solution: jns.libpam.sln
+matrix:
+  include:
+    - dotnet: 2.1.1
+      mono: none
+    - mono: latest
